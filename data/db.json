@@ -1,0 +1,46 @@
+{
+  "notes": [
+    {
+      "title": "Complete my ninja training",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
+      "category": "work",
+      "id": 2
+    },
+    {
+      "title": "Rohan's Birthday",
+      "details": "Remember to wish Happy Birthday to Rohan",
+      "category": "reminder",
+      "id": 4
+    },
+    {
+      "title": "Check one two",
+      "details": "pigd;awzgfliewxnbyfghf;kwavzbklw",
+      "category": "money",
+      "id": 5
+    },
+    {
+      "title": "React Masonry",
+      "details": "Complete part 18 of Net Ninja project",
+      "category": "todos",
+      "id": 6
+    },
+    {
+      "title": "Write Code ",
+      "details": "<Card elevation={2}>\n<CardHeader \n avatar            <Avatar\n                            ",
+      "category": "todos",
+      "id": 7
+    },
+    {
+      "title": "Complete the code",
+      "details": "<Card elevation={2}>\n                <CardHeader \n                    avatar={\n                        <Avatar\n                            sx = {{bgcolor: avatarColor[note.category]}}\n                        >\n                            {note.category[0].toUpperCase()}\n                        </Avatar>\n                }\n                    action = {\n                        <IconButton\n                            onClick={() => handleDelete(note.id)}\n                        >\n                            <DeleteOutlined />\n                        </IconButton>\n                    }\n                    title={note.title}\n                    subheader={note.category}\n                />",
+      "category": "todos",
+      "id": 8
+    },
+    {
+      "title": "Import Components",
+      "details": "import React from 'react';\nimport Card from '@mui/material/Card';\nimport CardHeader from '@mui/material/CardHeader';\nimport CardContent from '@mui/material/CardContent';\nimport Typography from '@mui/material/Typography';\nimport { Avatar, IconButton } from '@mui/material';\nimport { DeleteOutlined } from '@mui/icons-material';\nimport { green, pink, blue, yellow } from '@mui/material/colors';",
+      "category": "reminder",
+      "id": 9
+    }
+  ]
+}
